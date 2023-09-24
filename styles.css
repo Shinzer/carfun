@@ -145,6 +145,11 @@ ul li:hover ul.dropdown{
   background-color: white;
   border-radius: 50%;
   height:500px;
+  transition: 0.5s;
+}
+
+.logotrans:hover{
+  transform: scale(1.1);
 }
 
 .mv{
@@ -215,6 +220,10 @@ ul li:hover ul.dropdown{
   text-align: center;
 }
 
+.forsale p{
+  color: rgb(199, 65, 12);
+}
+
 .forsale{
   margin: 0;
   padding: 20px;
@@ -245,7 +254,7 @@ ul li:hover ul.dropdown{
 }
 
 .content-item{
-  background-color: rgb(191,191,191);
+  background-color: rgb(236, 228, 228);
   padding: 10px;
   width: 234px;
   transition: 0.7s ;
@@ -257,6 +266,7 @@ ul li:hover ul.dropdown{
 
 
 .membership h1{
+  font-family: 'Dela Gothic One', cursive;
   margin-top: 20px;
   color: rgb(0, 0, 0);
   font-size: 100px;
